@@ -133,7 +133,7 @@ MightyX += f" `{hl}join` - `{hl}pjoin` - `{hl}leave`\n\n"
  
 MightyX += f"sᴘᴀᴍ/ʀᴀɪᴅ ᴄᴍᴅs\n\n"
  
-MightyX += f" `{hl}spam` - `{hl}bigspam` - `{hl}delayspam` - `{hl}ppspam` \n\n `{hl}abuse` \n\n `{hl}raid` - `{hl}replyraid` - `{hl}dreplyraid` - `{hl}delayraid` \n\n"
+MightyX += f" `{hl}spam` - `{hl}bigspam` - `{hl}delayspam` \n\n `{hl}raid` - `{hl}replyraid` - `{hl}dreplyraid` - `{hl}delayraid` \n\n"
  
 MightyX += f"ᴅᴍ/ᴇᴄʜᴏ ᴄᴍᴅs\n\n"
  
