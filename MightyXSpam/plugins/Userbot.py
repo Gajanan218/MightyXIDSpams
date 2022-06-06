@@ -82,22 +82,22 @@ def get_readable_time(seconds: int) -> str:
 async def ping(e):
     if e.sender_id in SUDO_USERS:
             start = datetime.now()
-            check = await e.reply("𝙋𝙤𝙣𝙜!")
+            check = await e.reply("ᴘᴏɴɢ!")
             end = datetime.now()
             ms = (end-start).microseconds / 1000
             user = await e.client(GetFullUserRequest(e.sender_id))
             firstname = user.user.first_name
             userid = user.user.id
     if userid == OWNER_ID:
-        await check.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\n    ⚡ 𝐌𝐢𝐠𝐡𝐭𝐲 𝐗 𝐒𝐩𝐚𝐦 ⚡\n\n𝐏𝐢𝐧𝐠 : `{ms}` ᴍs\n𝐎𝐰𝐧𝐞𝐫 : {mention}")
+        await check.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\n    ⚡ 𝚂𝚁𝟸𝙻𝚒𝚗𝚔𝚜 𝚇 𝚂𝚙𝚊𝚖 ⚡\n\n𝐏𝐢𝐧𝐠 : `{ms}` ᴍs\n𝐎𝐰𝐧𝐞𝐫 : {mention}")
     else:
-        await check.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\n    ⚡ 𝐌𝐢𝐠𝐡𝐭𝐲 𝐗 𝐒𝐩𝐚𝐦 ⚡\n\n𝐏𝐢𝐧𝐠 : `{ms}` ᴍs\n𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫 : [{firstname}](tg://user?id={userid})")
+        await check.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\n    ⚡ 𝚂𝚁𝟸𝙻𝚒𝚗𝚔𝚜 𝚇 𝚂𝚙𝚊𝚖 ⚡\n\n𝐏𝐢𝐧𝐠 : `{ms}` ᴍs\n𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫 : [{firstname}](tg://user?id={userid})")
  
 # ALIVE
  
-MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/38eae16b57a0c2d039423.jpg"
+MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/63777ab9dbc882e42e982.jpg"
  
-MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ 𝗠𝗶𝗴𝗵𝘁𝘆𝗫𝗦𝗽𝗮𝗺 𝗶𝘀 𝗛𝗲𝗿𝗲 ★«╝"
+MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ sʀ𝟸ʟɪɴᴋs x sᴘᴀᴍ ɪs ʜᴇʀᴇ ★«╝"
  
  
  
@@ -106,7 +106,7 @@ MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ 𝗠𝗶𝗴𝗵𝘁𝘆𝗫�
 async def alive(event):
     if event.sender_id in SUDO_USERS:
         start = datetime.now()
-        text = "𝘊𝘩𝘦𝘤𝘬𝘪𝘯𝘨..."
+        text = "ᴄʜᴇᴄᴋɪɴɢ..."
         check = await event.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
