@@ -117,31 +117,31 @@ async def alive(event):
    
 # help
  
-HELP_PIC = "https://telegra.ph/file/38eae16b57a0c2d039423.jpg"
+HELP_PIC = "https://telegra.ph/file/63777ab9dbc882e42e982.jpg"
  
-MightyX = "╚»★ 𝗠𝗶𝗴𝗵𝘁𝘆 𝗫 𝗦𝗽𝗮𝗺 𝗛𝗲𝗹𝗽 ★«╝\n\n"
+MightyX = "╚»★sʀ𝟸ʟɪɴᴋs x sᴘᴀᴍ ʙᴏᴛ ★«╝\n\n"
  
-MightyX += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍɪɢʜᴛʏ x sᴘᴀᴍ__\n\n"
+MightyX += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ sʀ𝟸ʟɪɴᴋs x sᴘᴀᴍ__\n\n"
  
-MightyX += f"𝙐𝙨𝙚𝙧𝘽𝙤𝙩 𝘾𝙢𝙙𝙨\n\n"
+MightyX += f"ᴜsᴇʀʙᴏᴛ ᴄᴍᴅs\n\n"
  
 MightyX += f" `{hl}ping` - `{hl}alive` - `{hl}setpic` - `{hl}delpic` - `{hl}setname` - `{hl}setbio` - `{hl}inviteall` - `{hl}restart` - `{hl}update` - `{hl}stats` - `{hl}addsudo` - `{hl}logs` \n\n"
  
-MightyX += f"𝙅𝙤𝙞𝙣/𝙇𝙚𝙖𝙫𝙚 𝘾𝙢𝙙𝙨\n\n"
+MightyX += f"ᴊᴏɪɴ/ʟᴇᴀᴠᴇ ᴄᴍᴅs\n\n"
  
 MightyX += f" `{hl}join` - `{hl}pjoin` - `{hl}leave`\n\n"
  
-MightyX += f"𝙎𝙥𝙖𝙢/𝙍𝙖𝙞𝙙 𝘾𝙢𝙙𝙨\n\n"
+MightyX += f"sᴘᴀᴍ/ʀᴀɪᴅ ᴄᴍᴅs\n\n"
  
 MightyX += f" `{hl}spam` - `{hl}bigspam` - `{hl}delayspam` - `{hl}ppspam` \n\n `{hl}abuse` \n\n `{hl}raid` - `{hl}replyraid` - `{hl}dreplyraid` - `{hl}delayraid` \n\n"
  
-MightyX += f"𝘿𝙈/𝙀𝙘𝙝𝙤 𝘾𝙢𝙙𝙨\n\n"
+MightyX += f"ᴅᴍ/ᴇᴄʜᴏ ᴄᴍᴅs\n\n"
  
 MightyX += f" `{hl}dm` - `{hl}dmraid` - `{hl}dmspam` \n\n `{hl}addecho` - `{hl}rmecho` \n"
  
 MightyX += f"\n[𝘒𝘯𝘰𝘸 𝘔𝘰𝘳𝘦 𝘈𝘣𝘰𝘶𝘵 𝘛𝘩𝘦𝘴𝘦 𝘊𝘔𝘋𝘚](t.me/ResourceXD/2)\n\n"
  
-MightyX += f"[✨ Updates ✨](t.me/MightyXUpdates)       [✨ Support ✨](t.me/MightyXSupport)\n"
+MightyX += f"[✨ Updates ✨](https://t.me/SR2LINKS)       [✨ Support ✨](https://t.me/Botz_Support)\n"
  
 @Mig.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
 async def help(event):
@@ -193,7 +193,7 @@ async def help(event):
 @Mig40.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗠𝗶𝗴𝗵𝘁𝘆𝗫𝗦𝗽𝗮𝗺...\nPlease Wait For Few Seconds !!"
+        text = "ʀᴇsᴛᴀʀᴛɪɴɢ ʏᴏᴜʀ sᴘᴀᴍ ʙᴏᴛ...\nPlease Wait For Few Seconds !!"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Mig.disconnect()
