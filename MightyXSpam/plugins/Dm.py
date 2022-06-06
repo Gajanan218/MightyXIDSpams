@@ -61,7 +61,7 @@ async def _(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in MightyX:
-                text = f"I Can't Dm to MightyX's Owner"
+                text = f"I Can't Dm to SR2LiNK's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This Guy is a Sudo User."
@@ -76,7 +76,7 @@ async def _(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in MightyX:
-                text = f"I Can't Dm to MightyX's Owner"
+                text = f"I Can't Dm to SR2LiNK's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This Guy is a Sudo User."
@@ -143,7 +143,7 @@ async def dmraid(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in MightyX:
-                text = f"I Can't Raid On MightyX's Owner"
+                text = f"I Can't Raid On SR2LiNK's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This Guy is a Sudo User."
@@ -162,14 +162,17 @@ async def dmraid(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in MightyX:
-                text = f"I Can't Raid On MightyX's Owner"
+                text = f"I Can't Raid On SR2LiNK's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This Guy is a Sudo User."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 counter = int(Mighty[0])
-                await e.reply("Dm Raid Strated Successfully !! ✅")
+                await e.reply("Dm Raid Stra
+                            
+                              
+ted Successfully !! ✅")
                 for _ in range(counter):
                     reply = random.choice(RAID)
                     caption = f"{reply}"
